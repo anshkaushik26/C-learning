@@ -6,7 +6,7 @@
     int a=5,b=7;
     float pi=3.14;
     char c ='s';
-    bool truth='true';
+    bool truth ='true';
 
     cout<<"this is day2 here the value of a is :" <<a<<".here the value of b is :" << b ;
    

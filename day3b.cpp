@@ -2,21 +2,22 @@
 using namespace std;
  int main()
  {
-   int a,b,c;
-   cout<<"the value of a is :";
-   cin>>a;
+   //***********Refrence variables***********
+   // Arahan-->Arahan scottish-->Gora 
+    float x= 455;
+    float & y = x;
+    cout<<x<<endl;
+    cout<<y<<endl;
+   
+   //***********Type Casting***********
+   int a =45;
+   float b= 45.67;
+    cout<<"the value of a is "<<(float)a<<endl;
+    cout<<"the value of b is "<<(int)b<<endl;
+    cout<<"the value of b is "<<int(b)<<endl;
+   // cout<<"the value of a+b is "<<int(b)+a<<endl;
 
-   cout<<"the value of b is :";
-   cin>>b;
-
-
-
-   c = a + b;
-
-
-   cout<<"the sum of a and b is c:"<<c;
-
-
+    
 
    return 0;
 }
